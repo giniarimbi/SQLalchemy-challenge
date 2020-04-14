@@ -17,7 +17,7 @@
 
 ### 1.2) Station Analysis
 
-![](Images_Output/PTemperaturevsFrequency.png)
+![](Images_Output/TemperaturevsFrequency.png)
 
 
 *First we find out which station has the highest number of observations. After that, we created a histogram to see the occureance of certain temperature level. 
@@ -28,15 +28,21 @@
 
 * We created several routes to retrieve the data from Step 1.
 
-*/ = homepage index to see available routes 
+
+*/ 
+*homepage index to see available routes 
+
+
 */api/v1.0/stations 
 *query the precipitation value for date
 
-*/api/v1.0/tobs = dates and temperature observations of the most active station for the last year of data, in the form of JSON
+
+*/api/v1.0/tobs 
 *query dates and temperature observations of the most active station for the last year of data, in the form of JSON
 
 
 */api/v1.0/<start> and /api/v1.0/<start>/<end> 
+
 *user can input a specific "start date" (in the format of yyyy/mm/dd) to find min, max, and average of temperature above the start date
 *user can input "start date" and "end date" to find min, max, and average of temperature in between range of start and end date  
 
