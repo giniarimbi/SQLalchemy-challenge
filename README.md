@@ -30,20 +30,24 @@
 
 
 */ 
+
 *homepage index to see available routes 
 
 
 */api/v1.0/stations 
+
 *query the precipitation value for date
 
 
 */api/v1.0/tobs 
+
 *query dates and temperature observations of the most active station for the last year of data, in the form of JSON
 
 
 */api/v1.0/<start> and /api/v1.0/<start>/<end> 
 
 *user can input a specific "start date" (in the format of yyyy/mm/dd) to find min, max, and average of temperature above the start date
+
 *user can input "start date" and "end date" to find min, max, and average of temperature in between range of start and end date  
 
 
@@ -59,6 +63,7 @@
 
 ### Daily Rainfall Average
 ![](Images_Output/AreaPlot.png)
+
 *This area plot shows the min, max, and average temperature for the trip date. 
 
 
